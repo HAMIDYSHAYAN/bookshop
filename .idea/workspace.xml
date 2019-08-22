@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa47f3fa-3e1a-4eb2-9175-561584658c05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hover.css" beforeDir="false" afterPath="$PROJECT_DIR$/hover.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,8 @@
       <workItem from="1565852421766" duration="577000" />
       <workItem from="1566025516993" duration="4756000" />
       <workItem from="1566030495232" duration="1655000" />
-      <workItem from="1566452030147" duration="710000" />
+      <workItem from="1566452030147" duration="1845000" />
+      <workItem from="1566454242586" duration="2635000" />
     </task>
     <task id="LOCAL-00001" summary="commit for test">
       <created>1565070482618</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566032374834</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="commit day seven">
+      <created>1566452841852</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1566452841852</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +239,7 @@
     <MESSAGE value="commit day two" />
     <MESSAGE value="commit day three" />
     <MESSAGE value="commit day six" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit day six" />
+    <MESSAGE value="commit day seven" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit day seven" />
   </component>
 </project>
