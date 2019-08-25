@@ -56,5 +56,6 @@ body
     background:#3C0001;
     border-radius:7px;
     color:#fff;
-    padding:5px 20px
+    padding:5px 20px;
+    border: none;
 }
