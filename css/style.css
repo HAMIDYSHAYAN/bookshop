@@ -1,6 +1,8 @@
-body{
-    background: #f6f6f6;
+body
+{
+    background:#f6f6f6
 }
+
 .item
 {
     border:1px solid #3C0001;
@@ -23,7 +25,7 @@ body{
 #navigation_bar
 {
     height:75px;
-    background: white;
+    background:#fff
 }
 
 .title
@@ -38,20 +40,21 @@ body{
     padding-right:0
 }
 
-.menu-btn , .new-button
+.menu-btn,.new-button
 {
     background:transparent;
     border:none
 }
-.menu-btn{
-    margin-right: 48px;
+
+.menu-btn
+{
+    margin-right:48px
 }
 
 .new-button
 {
-
-    background: #3C0001;
-    border-radius: 7px;
-    color: white;
-    padding: 5px 20px;
+    background:#3C0001;
+    border-radius:7px;
+    color:#fff;
+    padding:5px 20px
 }
