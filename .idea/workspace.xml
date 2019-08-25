@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa47f3fa-3e1a-4eb2-9175-561584658c05" name="Default Changelist" comment="commit day eight">
+    <list default="true" id="aa47f3fa-3e1a-4eb2-9175-561584658c05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inddex.html" beforeDir="false" afterPath="$PROJECT_DIR$/inddex.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +90,8 @@
       <workItem from="1566452030147" duration="1845000" />
       <workItem from="1566454242586" duration="2733000" />
       <workItem from="1566628186786" duration="479000" />
-      <workItem from="1566628795907" duration="6633000" />
+      <workItem from="1566628795907" duration="6688000" />
+      <workItem from="1566715424521" duration="2296000" />
     </task>
     <task id="LOCAL-00001" summary="commit for test">
       <created>1565070482618</created>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566636598125</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="commit day eight">
+      <created>1566638767790</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1566638767790</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
