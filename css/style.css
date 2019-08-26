@@ -1,61 +1,126 @@
-body
-{
-    background:#f6f6f6
+@import "fonts.css";
+body{
+    background: #f6f6f6;
+}
+body,p,h1,h2,h3,h4,h5,h6{
+
+    font-family: mitra;
+}
+button{
+    font-family: yekan;
+}
+p{
+    color:#3C0001;
+}
+h1{
+    background: yellow;
+    color:purple;
+}
+.rtl{
+    direction: rtl;
+}
+.no-padding{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+#group1 p{
+    color:blue;
 }
 
-.item
-{
+.post{
+    background:chartreuse;
+}
+
+.sport{
+    border:10px dashed  darkorange;
+}
+
+.item{
     border:1px solid #3C0001;
-    border-radius:5px;
-    margin-top:30px;
-    background:#fff
+    border-radius: 5px;
+    margin-top: 30px;
+    background: white;
 }
 
-.item-img
-{
-    padding:25px
+.item-img{
+    border-bottom:1px solid #3C0001;
+    padding:25px;
 }
-
-.item-info
-{
-    padding:10px;
-    border-top:1px solid #3C0001
+.item-info{
+    padding: 10px;
 }
-
-#navigation_bar
-{
+#navigation_bar{
     height:75px;
-    background:#fff
+    background: white;
 }
 
-.title
-{
-    padding-left:0;
-    padding-right:0
-}
-
-.price
-{
-    padding-left:0;
-    padding-right:0
-}
-
-.menu-btn,.new-button
-{
-    background:transparent;
-    border:none
-}
-
-.menu-btn
-{
-    margin-right:48px
-}
-
-.new-button
-{
-    background:#3C0001;
-    border-radius:7px;
-    color:#fff;
-    padding:5px 20px;
+.menu-btn{
+    background: transparent;
     border: none;
+    margin-right: 30px;
+}
+.menu-btn:hover{
+    cursor: pointer;
+    /*background: #3C0001;*/
+    /*transition: 1s ease;*/
+}
+.new-btn{
+    color:white;
+    background: #3C0001;
+    border-radius: 7px;
+    padding: 5px 20px;
+    border:none;
+
+}
+
+.search-bar{
+    margin-top: 40px;
+    border:1px solid #3C0001;
+    border-radius: 7px;
+}
+
+.search-bar .form-group{
+    margin-bottom: 0;
+}
+.search-bar .form-control{
+    border-radius: 0;
+    border:none;
+    border-left:1px solid #3C0001;
+    border-radius: 0 7px 7px 0;
+    color:#3C0001;
+}
+.search-btn{
+
+    color: white;
+    background: #3C0001;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.search-btn span{
+    margin-left: 10px;
+}
+
+
+#footer-info{
+    background: #313131;
+    margin-top: 70px;
+    padding-top:  30px;
+    padding-bottom:  30px;
+}
+#footer-info,#footer-info p{
+    color:white;
+}
+#footer-info h3{
+    border-bottom: 1px solid white;
+}
+#copyright{
+    background: #FF9F01;
+    line-height: 50px;
+}
+
+footer .row:last-child{
+
 }

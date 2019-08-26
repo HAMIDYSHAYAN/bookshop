@@ -14,22 +14,40 @@
 <body>
 <header id="navigation_bar" class="d-flex align-items-center">
     <nav class="container">
-        <div class="d-flex align-items-center justify-content-between rtl">
+        <div class=" d-flex align-items-center justify-content-between rtl">
             <div class="logo">
-                <a href="./inddex.html"><img src="./imgs/logo.png" alt="logo"></a>
+                <a href="#"> <img src="imgs/logo.png" alt="Logo"></a>
             </div>
             <div class="menu">
-                <button class="new-button">+ افزودن آگهی</button>
-                <button class="menu-btn"><img src="./imgs/menu-icon.png" alt="menuicon"></button>
+                <button class="new-btn"> + افزودن آگهی</button>
+                <button class="menu-btn"><img src="imgs/menu-icon.png" alt="menuicon"></button>
             </div>
         </div>
     </nav>
 </header>
-<div id="main">
+<main id="main">
     <div class="container">
         <div class="row search-bar">
             <div class="col-12">
-                <input type="text" name="search">
+                <form action="#" method="post">
+                    <div class="row rtl">
+                        <div class="form-group col-md-6 col-12 no-padding">
+                            <input class="form-control" type="text" name="search" placeholder="جستجو...">
+                        </div>
+                        <div class="form-group col-md-5 col-12 no-padding">
+                            <select class="form-control" name="filter" id="filter">
+                                <option value="0">دسته ها</option>
+                                <option value="1">تاریخی</option>
+                                <option value="2">ادبی</option>
+                                <option value="3">هنری</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-1 col-12 no-padding">
+                            <button class="search-btn"><span><img src="imgs/magnifier-icon.png" alt=""></span>جستجو
+                            </button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="row items">
@@ -137,112 +155,39 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="item">
-                    <div class=" item-img">
-                        <div class="col-12 text-center">
-                            <img src="imgs/item-img.png" alt="itemimg">
-                        </div>
-                    </div>
-                    <div class="d-flex item-info rtl">
-                        <div class="col-6 title">دیوان حافظ</div>
-                        <div class="col-6 price text-right">۲۰۰۰ تومان</div>
-                    </div>
+        </div>
+    </div>
+</main>
+<footer id="footer-info">
+    <div class="container">
+        <div class="row rtl">
+            <div class="col-md-5 col-12">
+                <h3>درباره ما</h3>
+                <p>لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد</p>
+            </div>
+            <div class="col-md-3 col-12">
+                <h3>شبکه های اجتماعی</h3>
+                <div class="d-flex justify-content-between">
+                    <a href="#"><span><img src="imgs/icon1.png" alt="social-icon"></span></a>
+                    <a href="#"><span><img src="imgs/icon2.png" alt="social-icon"></span></a>
+                    <a href="#"><span><img src="imgs/icon3.png" alt="social-icon"></span></a>
+                    <a href="#"><span><img src="imgs/icon4.png" alt="social-icon"></span></a>
+                    <a href="#"><span><img src="imgs/icon5.png" alt="social-icon"></span></a>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="item">
-                    <div class=" item-img">
-                        <div class="col-12 text-center">
-                            <img src="imgs/item-img.png" alt="itemimg">
-                        </div>
-                    </div>
-                    <div class="d-flex item-info rtl">
-                        <div class="col-6 title">دیوان حافظ</div>
-                        <div class="col-6 price text-right">۲۰۰۰ تومان</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="item">
-                    <div class=" item-img">
-                        <div class="col-12 text-center">
-                            <img src="imgs/item-img.png" alt="itemimg">
-                        </div>
-                    </div>
-                    <div class="d-flex item-info rtl">
-                        <div class="col-6 title">دیوان حافظ</div>
-                        <div class="col-6 price text-right">۲۰۰۰ تومان</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="item">
-                    <div class=" item-img">
-                        <div class="col-12 text-center">
-                            <img src="imgs/item-img.png" alt="itemimg">
-                        </div>
-                    </div>
-                    <div class="d-flex item-info rtl">
-                        <div class="col-6 title">دیوان حافظ</div>
-                        <div class="col-6 price text-right">۲۰۰۰ تومان</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="item">
-                    <div class=" item-img">
-                        <div class="col-12 text-center">
-                            <img src="imgs/item-img.png" alt="itemimg">
-                        </div>
-                    </div>
-                    <div class="d-flex item-info rtl">
-                        <div class="col-6 title">دیوان حافظ</div>
-                        <div class="col-6 price text-right">۲۰۰۰ تومان</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="item">
-                    <div class=" item-img">
-                        <div class="col-12 text-center">
-                            <img src="imgs/item-img.png" alt="itemimg">
-                        </div>
-                    </div>
-                    <div class="d-flex item-info rtl">
-                        <div class="col-6 title">دیوان حافظ</div>
-                        <div class="col-6 price text-right">۲۰۰۰ تومان</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="item">
-                    <div class=" item-img">
-                        <div class="col-12 text-center">
-                            <img src="imgs/item-img.png" alt="itemimg">
-                        </div>
-                    </div>
-                    <div class="d-flex item-info rtl">
-                        <div class="col-6 title">دیوان حافظ</div>
-                        <div class="col-6 price text-right">۲۰۰۰ تومان</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="item">
-                    <div class=" item-img">
-                        <div class="col-12 text-center">
-                            <img src="imgs/item-img.png" alt="itemimg">
-                        </div>
-                    </div>
-                    <div class="d-flex item-info rtl">
-                        <div class="col-6 title">دیوان حافظ</div>
-                        <div class="col-6 price text-right">۲۰۰۰ تومان</div>
-                    </div>
-                </div>
+            <div class="col-md-4 col-12 d-flex justify-content-center align-items-center">
+                <img src="imgs/certs.png" alt="certs">
             </div>
         </div>
     </div>
-</div>
+</footer>
+<footer id="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center rtl">کلیه حقوق این سایت متعلق به  بوک استوک می باشد.</div>
+        </div>
+    </div>
+</footer>
 </body>
+</html>
 </html>
